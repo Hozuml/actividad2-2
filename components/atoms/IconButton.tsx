@@ -4,7 +4,7 @@ import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Space } from 'antd';
 
 
-export default function SessionButton() {
+export default function IconButton() {
     return (
         <Flex gap="small" wrap>
             <Button type="text">Log in</Button>

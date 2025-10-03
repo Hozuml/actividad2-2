@@ -7,7 +7,9 @@ const { Title } = Typography;
 
 export default function Logo() {
     return (
-        <Title level={3}>EduStream</Title>
+        <h2 style={{ fontWeight: "bold", fontSize: "1.5rem", color: "black" }}>
+            EduStream
+        </h2>
     )
 }
 
